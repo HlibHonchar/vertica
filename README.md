@@ -173,6 +173,7 @@ Travis CI against Vertica 7 CE, and against several Ruby versions.
 
 * [Website](http://vanbergen.org/vertica)
 * [API Documentation](http://www.rubydoc.info/gems/vertica)
+* [Frontend and backend protocols](https://integrators.vertica.com/data-protocols-formats/frontend-backend/)
 * [Vertica documentation](https://my.vertica.com/docs/7.1.x/HTML/index.htm)
 * [sequel-vertica](https://github.com/camilo/sequel-vertica): Sequel integration
 * [newrelic-vertica](https://github.com/wvanbergen/newrelic-vertica): NewRelic monitoring of queries

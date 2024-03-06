@@ -9,8 +9,9 @@ require 'securerandom'
 # prevent SQL injection.
 module Vertica
 
-  # The protocol version (3.0.0) implemented in this library.
-  PROTOCOL_VERSION = 3 << 16
+  # The protocol version (3.5) implemented in this library.
+  # https://integrators.vertica.com/data-protocols-formats/frontend-backend/#protocol-35
+  PROTOCOL_VERSION = 3 << 16 | 5
 
   # Opens a new connection to a Vertica database.
   # @param (see Vertica::Connection#initialize)
